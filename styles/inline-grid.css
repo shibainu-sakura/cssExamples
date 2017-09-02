@@ -1,0 +1,10 @@
+section {
+  display: inline-block;
+  margin-right: -0.25em;
+  width: calc((100% - 3em) / 4); /* CALC MAGIC */
+  box-sizing: border-box; /* BOX-SIZING MAGIC */
+}
+
+section:not(:nth-of-type(4n+1)) { /* SELECTOR MAGIC */
+  margin-left: 1em;
+}

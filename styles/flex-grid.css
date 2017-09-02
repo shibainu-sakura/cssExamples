@@ -1,0 +1,12 @@
+article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* MAGIC JUSTIFY */
+  flex-direction: column;
+  height: 300px;
+}
+
+article > section {
+  box-sizing: border-box; /* BOX SIZING MAGIC */
+  width: 23%;
+}
